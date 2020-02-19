@@ -149,5 +149,5 @@ function Employee(name, email, hireDate) {
       return element.id === id;
     })
     
-    foundObj.rating = rating;
+    foundObj["rating"] = rating;
   }
